@@ -1,7 +1,7 @@
 ---
-configure_dotfiles: true
-configure_terminal: true
-configure_osx: true
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -24,6 +24,7 @@ homebrew_installed_packages:
   - gh
   - go
   - gpg
+  - hashicorp/tap/terraform
   - httpie
   - iperf
   - iterm2
@@ -34,6 +35,7 @@ homebrew_installed_packages:
   - nvm
   - ollama
   - pass
+  - powerlevel10k
   - pngpaste
   - ssh-copy-id
   - readline
@@ -44,9 +46,9 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-autosuggestions
-  - zsh-history-substring-search
+  - zsh-autocomplete
 
-homebrew_taps: []
+homebrew_taps: [hashicorp/tap]
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
