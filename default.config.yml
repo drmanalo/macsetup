@@ -18,6 +18,9 @@ homebrew_installed_packages:
   - bash-completion
   - doxygen
   - eza
+  - font-fira-code-nerd-font
+  - font-fira-mono-nerd-font
+  - font-sauce-code-pro-nerd-font
   - gettext
   - gifsicle
   - git
@@ -48,7 +51,8 @@ homebrew_installed_packages:
   - zsh-autosuggestions
   - zsh-autocomplete
 
-homebrew_taps: [hashicorp/tap]
+homebrew_taps: 
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
