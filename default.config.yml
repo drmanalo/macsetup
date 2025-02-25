@@ -3,7 +3,7 @@ configure_dotfiles: false
 configure_terminal: false
 configure_osx: false
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/drmanalo/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -44,8 +44,9 @@ homebrew_installed_packages:
   - readline
   - openssl
   - pv
-  - thefuck
+  - speedtest-cli
   - sqlite
+  - thefuck
   - wget
   - wrk
   - zsh-autosuggestions
@@ -61,6 +62,7 @@ homebrew_cask_apps:
   - chromedriver
   - firefox
   - google-chrome
+  - intellij-idea-ce
   - licecap
   - sequel-ace
   - slack
