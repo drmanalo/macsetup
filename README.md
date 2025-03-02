@@ -73,22 +73,27 @@ dockitems_persist:
 
 Any variable can be overridden in `config.yml`; see the supporting roles' documentation for a complete list of available variables.
 
-## Included Applications / Configuration (Default)
-
-Applications (installed with Homebrew Cask):
+## Applications installed with Homebrew Cask
 
   - [anythingllm](https://anythingllm.com/)
   - [brave-browser](https://brave.com/)
   - [chromedriver](https://sites.google.com/chromium.org/driver/)
   - [firefox](https://www.mozilla.org/en-US/firefox/new/)
+  - [font-meslo-lg-nerd-font](https://github.com/ryanoasis/nerd-fonts)
   - [google-chrome](https://www.google.com/chrome/)
+  - [intellij-idea-ce](https://www.jetbrains.com/idea/)
+  - [iterm2](https://iterm2.com/)
+  - [kitty](https://github.com/kovidgoyal/kitty)
   - [licecap](http://www.cockos.com/licecap/)
-  - [sequel-ace](https://sequel-ace.com)
+  - [nikitabobko/tap/aerospace](https://github.com/nikitabobko/AeroSpace)
+  - [sequel-ace](https://github.com/Sequel-Ace/Sequel-Ace)
   - [slack](https://slack.com/)
   - [sublime-text](https://www.sublimetext.com/)
+  - [tradingview](https://www.tradingview.com/desktop/)
+  - [trilium-notes](https://github.com/zadam/trilium)
   - [visual-studio-code](https://code.visualstudio.com/)
 
-Packages (installed with Homebrew):
+## Packages installed with Homebrew
 
   - autoconf
   - bash-completion
