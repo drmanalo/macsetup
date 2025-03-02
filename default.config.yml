@@ -1,6 +1,5 @@
 ---
 configure_dotfiles: true
-configure_terminal: false
 configure_osx: false
 
 dotfiles_repo: https://github.com/drmanalo/dotfiles.git
@@ -59,7 +58,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - anythingllm
   - brave-browser
   - chromedriver
   - firefox
@@ -69,6 +67,7 @@ homebrew_cask_apps:
   - iterm2
   - kitty
   - licecap
+  - lm-studio
   - nikitabobko/tap/aerospace
   - sequel-ace
   - slack
@@ -98,23 +97,6 @@ pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
-
-# Set to 'true' to configure Sublime Text.
-configure_sublime: false
-sublime_base_path: '~/Library/Application Support/Sublime Text'
-sublime_config_path: "Packages/User"
-sublime_package_control:
-  - "DocBlockr"
-  - "Dockerfile Syntax Highlighting"
-  - "FileDiffs"
-  - "GitHub Flavored Markdown Preview"
-  - "Jinja2"
-  - "Package Control"
-  - "Pretty JSON"
-  - "SublimeLinter"
-  - "SublimeLinter-contrib-yamllint"
-  - "TrailingSpaces"
-  - "WordCount"
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
