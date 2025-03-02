@@ -1,5 +1,5 @@
 ---
-configure_dotfiles: false
+configure_dotfiles: true
 configure_terminal: false
 configure_osx: false
 
@@ -7,37 +7,37 @@ dotfiles_repo: https://github.com/drmanalo/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
-  - .zshrc
+  - .aerospace.toml
   - .gitignore
-  - .inputrc
   - .osx
   - .vimrc
+  - .zshrc
 
 homebrew_installed_packages:
   - autoconf
-  - bash-completion
+  - bat
   - doxygen
   - eza
-  - font-fira-code-nerd-font
-  - font-fira-mono-nerd-font
-  - font-sauce-code-pro-nerd-font
+  - fzf
+  - delta
   - gettext
-  - gifsicle
   - git
   - gh
   - go
   - gpg
   - hashicorp/tap/terraform
   - httpie
+  - hugo
   - iperf
-  - iterm2
   - libevent
+  - mockery
   - neovim
   - nmap
   - node
   - nvm
   - ollama
   - pass
+  - podman
   - powerlevel10k
   - pngpaste
   - ssh-copy-id
@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - speedtest-cli
   - sqlite
   - thefuck
+  - tldr
   - wget
   - wrk
   - zsh-autosuggestions
@@ -54,6 +55,7 @@ homebrew_installed_packages:
 
 homebrew_taps: 
   - hashicorp/tap
+  - nikitabobko/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -61,12 +63,18 @@ homebrew_cask_apps:
   - brave-browser
   - chromedriver
   - firefox
+  - font-meslo-lg-nerd-font
   - google-chrome
   - intellij-idea-ce
+  - iterm2
+  - kitty
   - licecap
+  - nikitabobko/tap/aerospace
   - sequel-ace
   - slack
   - sublime-text
+  - tradingview
+  - trilium-notes
   - visual-studio-code
 
 osx_script: "~/.osx --no-restart"
