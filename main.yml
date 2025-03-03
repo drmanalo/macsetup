@@ -36,3 +36,7 @@
           loop_control:
             loop_var: outer_item
           with_fileglob: "{{ post_provision_tasks | default(omit) }}"
+
+    - import_tasks: tasks/fzf-git.yml
+      when: configure_dotfiles
+      tags: ['dotfiles']

@@ -1,0 +1,7 @@
+---
+# fzf-git is required by the zshrc
+- name: Clone fzf-git
+  git:
+    repo: "https://github.com/junegunn/fzf-git.sh.git"
+    accept_hostkey: true
+    dest: "~/.config/fzf"

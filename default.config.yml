@@ -5,6 +5,7 @@ configure_osx: false
 dotfiles_repo: https://github.com/drmanalo/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_repo_version: main
 dotfiles_files:
   - .aerospace.toml
   - .gitignore
@@ -45,7 +46,6 @@ homebrew_installed_packages:
   - pv
   - speedtest-cli
   - sqlite
-  - thefuck
   - tldr
   - wget
   - wrk
@@ -58,6 +58,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - anythingllm
   - brave-browser
   - chromedriver
   - firefox
@@ -67,12 +68,10 @@ homebrew_cask_apps:
   - iterm2
   - kitty
   - licecap
-  - lm-studio
   - nikitabobko/tap/aerospace
   - sequel-ace
   - slack
   - sublime-text
-  - tradingview
   - trilium-notes
   - visual-studio-code
 
