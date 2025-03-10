@@ -1,5 +1,5 @@
 ---
-configure_dotfiles: true
+configure_dotfiles: false
 configure_osx: false
 
 dotfiles_repo: https://github.com/drmanalo/dotfiles.git
@@ -61,6 +61,7 @@ homebrew_cask_apps:
   - anythingllm
   - brave-browser
   - chromedriver
+  - finch
   - firefox
   - font-meslo-lg-nerd-font
   - google-chrome
@@ -69,6 +70,7 @@ homebrew_cask_apps:
   - kitty
   - licecap
   - nikitabobko/tap/aerospace
+  - pycharm-ce
   - sequel-ace
   - slack
   - sublime-text
@@ -88,10 +90,9 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
-# - name: webpack
-#   state: present # present/absent/latest, default: present
-#   version: "^2.6" # default: N/A
+npm_packages:
+  - name: wscat
+    state: present
 pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
