@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - httpie
   - hugo
   - iperf
+  - jenv
   - libevent
   - mockery
   - neovim
