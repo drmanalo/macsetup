@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - google-chrome
   - intellij-idea-ce
   - iterm2
+  - insomnia
   - kitty
   - licecap
   - nosql-workbench
