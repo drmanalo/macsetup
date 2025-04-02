@@ -1,0 +1,15 @@
+---
+- name: Install trilium
+  community.general.homebrew_cask:
+    name: trilium-notes
+    state: present
+
+- name: Install tradingview
+  community.general.homebrew_cask:
+    name: tradingview
+    state: present
+
+- name: Install whatsapp
+  community.general.homebrew_cask:
+    name: whatsapp
+    state: present
