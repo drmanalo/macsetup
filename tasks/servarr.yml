@@ -1,0 +1,35 @@
+---
+- name: Install qbittorrent
+  community.general.homebrew_cask:
+    name: qbittorrent
+    state: present
+
+- name: Install sabnzbd
+  community.general.homebrew_cask:
+    name: sabnzbd
+    state: present
+
+- name: Install jellyfin
+  community.general.homebrew_cask:
+    name: jellyfin
+    state: present
+
+- name: Install lidarr
+  community.general.homebrew_cask:
+    name: lidarr
+    state: present
+
+- name: Install prowlarr
+  community.general.homebrew_cask:
+    name: prowlarr
+    state: present
+
+- name: Install radarr
+  community.general.homebrew_cask:
+    name: radarr
+    state: present
+
+- name: Install sonarr
+  community.general.homebrew_cask:
+    name: sonarr
+    state: present

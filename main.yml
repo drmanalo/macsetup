@@ -25,6 +25,10 @@
       when: configure_personal
       tags: [ 'personal' ]
 
+    - import_tasks: tasks/servarr.yml
+      when: configure_servarr
+      tags: [ 'personal' ]
+
     - import_tasks: tasks/osx.yml
       when: configure_osx
       tags: ['osx']
