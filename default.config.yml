@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - speedtest-cli
   - sqlite
   - tldr
+  - tflint
   - wget
   - wrk
   - zsh-autosuggestions
