@@ -13,3 +13,8 @@
   community.general.homebrew_cask:
     name: whatsapp
     state: present
+
+- name: Install immich-cli
+  package:
+    name: immich-cli
+    state: present
