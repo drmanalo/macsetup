@@ -1,17 +1,7 @@
 ---
-- name: Install podman-desktop
+- name: Install docker
   community.general.homebrew_cask:
-    name: podman-desktop
-    state: present
-
-- name: Install qbittorrent
-  community.general.homebrew_cask:
-    name: qbittorrent
-    state: present
-
-- name: Install sabnzbd
-  community.general.homebrew_cask:
-    name: sabnzbd
+    name: docker
     state: present
 
 - name: Install jellyfin
@@ -22,11 +12,6 @@
 - name: Install lidarr
   community.general.homebrew_cask:
     name: lidarr
-    state: present
-
-- name: Install prowlarr
-  community.general.homebrew_cask:
-    name: prowlarr
     state: present
 
 - name: Install radarr
