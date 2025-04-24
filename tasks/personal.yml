@@ -1,7 +1,27 @@
 ---
-- name: Install trilium
+- name: Install docker
   community.general.homebrew_cask:
-    name: trilium-notes
+    name: docker
+    state: present
+
+- name: Install ffmpeg
+  package:
+    name: ffmpeg
+    state: present
+
+- name: Install immich-cli
+  package:
+    name: immich-cli
+    state: present
+
+- name: Install jellyfin
+  community.general.homebrew_cask:
+    name: jellyfin
+    state: present
+
+- name: Install postgresql
+  package:
+    name: postgresql@17
     state: present
 
 - name: Install tradingview
@@ -12,9 +32,4 @@
 - name: Install whatsapp
   community.general.homebrew_cask:
     name: whatsapp
-    state: present
-
-- name: Install immich-cli
-  package:
-    name: immich-cli
     state: present
