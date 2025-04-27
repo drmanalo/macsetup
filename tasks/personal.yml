@@ -19,6 +19,11 @@
     name: jellyfin
     state: present
 
+- name: Install messenger
+  community.general.homebrew_cask:
+    name: messenger
+    state: present
+
 - name: Install postgresql
   package:
     name: postgresql@17
