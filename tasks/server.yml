@@ -1,0 +1,30 @@
+---
+- name: Install docker
+  community.general.homebrew_cask:
+    name: docker
+    state: present
+
+- name: Install ffmpeg
+  package:
+    name: ffmpeg
+    state: present
+
+- name: Install immich-cli
+  package:
+    name: immich-cli
+    state: present
+
+- name: Install jellyfin
+  community.general.homebrew_cask:
+    name: jellyfin
+    state: present
+
+- name: Install redis
+  package:
+    name: redis
+    state: present
+
+- name: Install uv
+  package:
+    name: uv
+    state: present

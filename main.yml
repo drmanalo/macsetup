@@ -25,6 +25,10 @@
       when: configure_personal
       tags: [ 'personal' ]
 
+    - import_tasks: tasks/server.yml
+      when: configure_server
+      tags: [ 'personal' ]
+
     - import_tasks: tasks/osx.yml
       when: configure_osx
       tags: ['osx']
