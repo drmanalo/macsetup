@@ -2,6 +2,7 @@
 configure_dotfiles: false
 configure_osx: false
 configure_personal: false
+configure_server: false
 
 dotfiles_repo: https://github.com/drmanalo/dotfiles.git
 dotfiles_repo_accept_hostkey: true
