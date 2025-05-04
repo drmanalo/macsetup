@@ -9,6 +9,11 @@
     name: ffmpeg
     state: present
 
+- name: Install homeassistant
+  community.general.homebrew_cask:
+    name: home-assistant
+    state: present
+
 - name: Install immich-cli
   package:
     name: immich-cli
@@ -22,9 +27,4 @@
 - name: Install redis
   package:
     name: redis
-    state: present
-
-- name: Install uv
-  package:
-    name: uv
     state: present
