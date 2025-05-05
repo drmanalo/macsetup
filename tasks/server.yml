@@ -24,6 +24,11 @@
     name: jellyfin
     state: present
 
+- name: Install nextcloud
+  community.general.homebrew_cask:
+    name: nextcloud
+    state: present
+
 - name: Install redis
   package:
     name: redis
