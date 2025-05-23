@@ -1,4 +1,9 @@
 ---
+- name: Install bitwarden
+  community.general.homebrew_cask:
+    name: bitwarden
+    state: present
+
 - name: Install docker
   community.general.homebrew_cask:
     name: docker
