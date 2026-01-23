@@ -43,10 +43,10 @@ homebrew_installed_packages:
   - podman
   - powerlevel10k
   - pngpaste
+  - pv
+  - pyenv
   - ssh-copy-id
   - readline
-  - openssl
-  - pv
   - speedtest-cli
   - sqlite
   - tldr
@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - anythingllm
   - brave-browser
   - chromedriver
+  - cursor
   - finch
   - firefox
   - font-meslo-lg-nerd-font
@@ -78,7 +79,6 @@ homebrew_cask_apps:
   - nikitabobko/tap/aerospace
   - pycharm-ce
   - sequel-ace
-  - slack
   - sublime-text
   - visual-studio-code
 
