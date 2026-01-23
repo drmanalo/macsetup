@@ -1,12 +1,12 @@
 ---
-- name: Install messenger
-  community.general.homebrew_cask:
-    name: messenger
+- name: Install immich-cli
+  package:
+    name: immich-cli
     state: present
 
 - name: Install postgresql
   package:
-    name: postgresql@17
+    name: postgresql@18
     state: present
 
 - name: Install pwgen

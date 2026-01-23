@@ -19,11 +19,6 @@
     name: home-assistant
     state: present
 
-- name: Install immich-cli
-  package:
-    name: immich-cli
-    state: present
-
 - name: Install jellyfin
   community.general.homebrew_cask:
     name: jellyfin
