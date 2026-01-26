@@ -22,6 +22,7 @@ homebrew_installed_packages:
   - eza
   - fzf
   - delta
+  - dotnet
   - gettext
   - git
   - gh

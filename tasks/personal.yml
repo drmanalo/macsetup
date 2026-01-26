@@ -1,4 +1,9 @@
 ---
+- name: Install Garmin Express
+  community.general.homebrew_cask:
+    name: garmin-express
+    state: present
+
 - name: Install immich-cli
   package:
     name: immich-cli
@@ -17,6 +22,11 @@
 - name: Install tradingview
   community.general.homebrew_cask:
     name: tradingview
+    state: present
+
+- name: Install twingate
+  community.general.homebrew_cask:
+    name: twingate
     state: present
 
 - name: Install whatsapp
