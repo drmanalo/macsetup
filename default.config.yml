@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - hugo
   - iperf
   - jenv
+  - localstack
   - libevent
   - mockery
   - neovim
