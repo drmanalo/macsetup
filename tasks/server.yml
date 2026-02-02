@@ -1,22 +1,7 @@
 ---
-- name: Install bitwarden
-  community.general.homebrew_cask:
-    name: bitwarden
-    state: present
-
-- name: Install docker
-  community.general.homebrew_cask:
-    name: docker
-    state: present
-
 - name: Install ffmpeg
   package:
     name: ffmpeg
-    state: present
-
-- name: Install homeassistant
-  community.general.homebrew_cask:
-    name: home-assistant
     state: present
 
 - name: Install jellyfin
@@ -24,12 +9,12 @@
     name: jellyfin
     state: present
 
-- name: Install nextcloud
-  community.general.homebrew_cask:
-    name: nextcloud
+- name: Install navidrome
+  package:
+    name: navidrome
     state: present
 
-- name: Install redis
-  package:
-    name: redis
+- name: Install podman desktop
+  community.general.homebrew_cask:
+    name: podman-desktop
     state: present

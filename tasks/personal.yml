@@ -9,6 +9,11 @@
     name: immich-cli
     state: present
 
+- name: Install joplin
+  community.general.homebrew_cask:
+    name: joplin
+    state: present
+
 - name: Install postgresql
   package:
     name: postgresql@18
