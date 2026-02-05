@@ -17,7 +17,9 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
+  - awscli-local
   - bat
+  - docker
   - doxygen
   - eza
   - fzf
@@ -34,7 +36,6 @@ homebrew_installed_packages:
   - iperf
   - jenv
   - jinja2-cli
-  - localstack-cli
   - libevent
   - mockery
   - neovim
@@ -43,7 +44,6 @@ homebrew_installed_packages:
   - nvm
   - ollama
   - pass
-  - podman
   - powerlevel10k
   - pngpaste
   - pv

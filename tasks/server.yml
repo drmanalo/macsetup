@@ -1,4 +1,9 @@
 ---
+- name: Install docker desktop
+  community.general.homebrew_cask:
+    name: docker-desktop
+    state: present
+    
 - name: Install ffmpeg
   package:
     name: ffmpeg
@@ -14,7 +19,3 @@
     name: navidrome
     state: present
 
-- name: Install podman desktop
-  community.general.homebrew_cask:
-    name: podman-desktop
-    state: present
