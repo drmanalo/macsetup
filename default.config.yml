@@ -61,7 +61,6 @@ homebrew_installed_packages:
 
 homebrew_taps: 
   - hashicorp/tap
-  - nikitabobko/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
