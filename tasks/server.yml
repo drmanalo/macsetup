@@ -13,9 +13,4 @@
   community.general.homebrew_cask:
     name: jellyfin
     state: present
-
-- name: Install navidrome
-  package:
-    name: navidrome
-    state: present
-
+    

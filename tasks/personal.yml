@@ -24,6 +24,11 @@
     name: pwgen
     state: present
 
+- name: Install sonos
+  community.general.homebrew_cask:
+    name: sonos
+    state: present
+
 - name: Install tradingview
   community.general.homebrew_cask:
     name: tradingview
