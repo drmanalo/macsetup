@@ -36,6 +36,9 @@
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
+    - import_tasks: tasks/portainer.yml
+      tags: ['portainer']
+
     - name: Run post-provision task files in a block.
       tags: ['post']
       block:
