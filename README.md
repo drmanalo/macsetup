@@ -87,7 +87,6 @@ Any variable can be overridden in `config.yml`; see the supporting roles' docume
   - [nikitabobko/tap/aerospace](https://github.com/nikitabobko/AeroSpace)
   - [sequel-ace](https://github.com/Sequel-Ace/Sequel-Ace)
   - [slack](https://slack.com/)
-  - [sublime-text](https://www.sublimetext.com/)
   - [tradingview](https://www.tradingview.com/desktop/)
   - [trilium-notes](https://github.com/zadam/trilium)
   - [visual-studio-code](https://code.visualstudio.com/)

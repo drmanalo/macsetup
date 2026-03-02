@@ -79,11 +79,10 @@ homebrew_cask_apps:
   - kitty
   - licecap
   - nosql-workbench
-  - nikitabobko/tap/aerospace
   - pycharm-ce
   - sequel-ace
-  - sublime-text
   - visual-studio-code
+  - zed
 
 osx_script: "~/.osx --no-restart"
 
