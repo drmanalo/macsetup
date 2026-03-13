@@ -66,6 +66,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - anythingllm
   - brave-browser
+  - claude
   - chromedriver
   - cursor
   - finch
