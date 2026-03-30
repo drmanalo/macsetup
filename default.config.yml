@@ -1,5 +1,6 @@
 ---
 configure_dotfiles: false
+configure_llama: true
 configure_osx: false
 configure_personal: false
 configure_server: false
@@ -42,7 +43,6 @@ homebrew_installed_packages:
   - nmap
   - node
   - nvm
-  - ollama
   - pass
   - powerlevel10k
   - pngpaste
@@ -66,7 +66,6 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - anythingllm
   - brave-browser
-  - claude
   - chromedriver
   - cursor
   - finch

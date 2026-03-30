@@ -21,6 +21,10 @@
       tags: ['dotfiles']
 
   tasks:
+    - import_tasks: tasks/llama.yml
+      when: configure_llama
+      tags: [ 'personal' ]
+
     - import_tasks: tasks/personal.yml
       when: configure_personal
       tags: [ 'personal' ]
