@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - brave-browser
   - chromedriver
   - cursor
+  -  db-browser-for-sqlite
   - finch
   - firefox
   - font-meslo-lg-nerd-font
