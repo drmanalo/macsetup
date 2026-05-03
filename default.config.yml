@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - nmap
   - node
   - nvm
+  - opencode
   - pass
   - powerlevel10k
   - pngpaste
@@ -54,12 +55,14 @@ homebrew_installed_packages:
   - sqlite
   - tldr
   - tflint
+  - uv
   - wget
   - wrk
   - zsh-autosuggestions
   - zsh-autocomplete
 
 homebrew_taps: 
+  - anomalyco/tap
   - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
@@ -67,6 +70,8 @@ homebrew_cask_apps:
   - anythingllm
   - brave-browser
   - chromedriver
+  - claude
+  - claude-code
   - cursor
   -  db-browser-for-sqlite
   - finch
@@ -79,6 +84,7 @@ homebrew_cask_apps:
   - kitty
   - licecap
   - nosql-workbench
+  - opencode-desktop
   - pycharm-ce
   - sequel-ace
   - visual-studio-code
