@@ -37,14 +37,17 @@ homebrew_installed_packages:
   - iperf
   - jenv
   - jinja2-cli
+  - k3d
   - libevent
   - mockery
+  - mongosh
   - neovim
   - nmap
   - node
   - nvm
   - opencode
   - pass
+  - podman
   - powerlevel10k
   - pngpaste
   - pv
