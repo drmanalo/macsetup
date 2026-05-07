@@ -41,6 +41,7 @@
       tags: ['extra-packages']
 
     - import_tasks: tasks/portainer.yml
+      when: configure_personal
       tags: ['portainer']
 
     - name: Run post-provision task files in a block.

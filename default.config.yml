@@ -32,12 +32,14 @@ homebrew_installed_packages:
   - go
   - gpg
   - hashicorp/tap/terraform
+  - helm
   - httpie
   - hugo
   - iperf
   - jenv
   - jinja2-cli
   - k3d
+  - kustomize
   - libevent
   - mockery
   - mongosh
@@ -73,7 +75,6 @@ homebrew_cask_apps:
   - anythingllm
   - brave-browser
   - chromedriver
-  - claude
   - claude-code
   - cursor
   -  db-browser-for-sqlite
