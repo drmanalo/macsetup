@@ -12,7 +12,7 @@
     restart_policy: always
     ports:
       - "{{ portainer_https_port | default('9443') }}:9443"
-      - "{{ portainer_tunnel_port | default('8000') }}:8000"
+      - "{{ portainer_tunnel_port | default('3000') }}:3000"
     volumes:
       - "{{ portainer_docker_socket | default('/var/run/docker.sock') }}:/var/run/docker.sock"
       - "{{ portainer_volume_name | default('portainer_data') }}:/data"

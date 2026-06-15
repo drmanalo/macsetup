@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - opencode
+  - pandoc
   - pass
   - podman
   - powerlevel10k
@@ -61,6 +62,7 @@ homebrew_installed_packages:
   - tldr
   - tflint
   - uv
+  - weasyprint
   - wget
   - wrk
   - zsh-autosuggestions
@@ -82,11 +84,12 @@ homebrew_cask_apps:
   - firefox
   - font-meslo-lg-nerd-font
   - google-chrome
-  - intellij-idea-ce
+  - intellij-idea-oss
   - iterm2
   - insomnia
   - kitty
   - licecap
+  - libreoffice-still
   - nosql-workbench
   - opencode-desktop
   - pycharm-ce
